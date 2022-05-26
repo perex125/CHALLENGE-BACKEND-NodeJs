@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Desarrollar una API Rest para el challenge de backend de Alkemy ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon index"
   },
