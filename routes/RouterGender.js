@@ -11,8 +11,8 @@ const router = Router()
 
 router.get("/", getGenders)
 router.post("/", addGender)
-router.put("/:id", editGender)
-router.delete("/:id", deleteGender)
+router.put("/:idGender", editGender)
+router.delete("/:idGender", deleteGender)
 
 
 export default router
