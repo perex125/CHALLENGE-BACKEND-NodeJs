@@ -11,10 +11,10 @@ import {Router} from "express"
 const router = Router()
 
 router.get("/", getCharacters)
-router.get("/:id", getCharacter)
+router.get("/:idCharacter", getCharacter)
 router.post("/", addCharacter)
-router.put("/:id", editCharacter)
-router.delete("/:id", deleteCharacter)
+router.put("/:idCharacter", editCharacter)
+router.delete("/:idCharacter", deleteCharacter)
 
 
 export default router
