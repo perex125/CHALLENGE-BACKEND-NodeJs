@@ -20,7 +20,7 @@ app.use("/api/genders", routerGender);
 
 const PORT = process.env.PORT || 4000
 
-await db .sync({ force: true });
+await db .sync({ force: false });
 
 db.sync()
     .then(()=>console.log('DB Conectada'))

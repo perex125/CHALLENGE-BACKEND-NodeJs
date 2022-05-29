@@ -11,10 +11,10 @@ import {Router} from "express"
 const router = Router()
 
 router.get("/", getMovies)
-router.get("/:id", getMovie)
+router.get("/:idMovie", getMovie)
 router.post("/", addMovie)
-router.put("/:id", editMovie)
-router.delete("/:id", deleteMovie)
+router.put("/:idMovie", editMovie)
+router.delete("/:idMovie", deleteMovie)
 
 
 export default router
